@@ -1,0 +1,7 @@
+## clock pin for Nexys 2 Board
+NET "g_clk" LOC = "B8"; # Bank = 0, Pin name = IP_L13P_0/GCLK8, Type = GCLK, Sch name = GCLK0
+ 
+NET "clr" LOC = "H13"; # Bank = 1, Pin name = IP, Type = INPUT, Sch name = BTN3
+ 
+NET "clk_out" LOC = "B4";  # Bank = 0, Pin name = IO_L24N_0, Type = I/O, Sch name = R-IO1
+NET "q_out"  LOC = "A4";  # Bank = 0, Pin name = IO_L24P_0, Type = I/O, Sch name = R-IO2

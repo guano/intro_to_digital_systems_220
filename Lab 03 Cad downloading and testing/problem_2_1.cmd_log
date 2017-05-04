@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "J:/EE 220 retake/Lab 03 Cad downloading and testing/problem_2_1.xst" -ofn "J:/EE 220 retake/Lab 03 Cad downloading and testing/problem_2_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc problem_2_1.ucf -p xc3s500e-fg320-4 "problem_2_1.ngc" problem_2_1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o problem_2_1_map.ncd problem_2_1.ngd problem_2_1.pcf 
+par -w -intstyle ise -ol high -t 1 problem_2_1_map.ncd problem_2_1.ncd problem_2_1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml problem_2_1.twx problem_2_1.ncd -o problem_2_1.twr problem_2_1.pcf -ucf problem_2_1.ucf 
+bitgen -intstyle ise -f problem_2_1.ut problem_2_1.ncd 

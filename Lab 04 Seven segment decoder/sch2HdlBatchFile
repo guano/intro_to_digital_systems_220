@@ -1,0 +1,4 @@
+sch2hdl,-intstyle,ise,-family,spartan3e,-verilog,J:/EE 220 retake/Lab 04 Seven segment decoder/cef.vf,-w,J:/EE 220 retake/Lab 04 Seven segment decoder/cef.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-verilog,J:/EE 220 retake/Lab 04 Seven segment decoder/abdg.vf,-w,J:/EE 220 retake/Lab 04 Seven segment decoder/abdg.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-verilog,J:/EE 220 retake/Lab 04 Seven segment decoder/test_bench.vf,-w,J:/EE 220 retake/Lab 04 Seven segment decoder/test_bench.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-verilog,J:/EE 220 retake/Lab 04 Seven segment decoder/seven_seg2.vf,-w,J:/EE 220 retake/Lab 04 Seven segment decoder/seven_seg2.sch

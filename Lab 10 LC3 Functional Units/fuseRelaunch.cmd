@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "J:/EE 220 retake/Lab 10 LC3 Functional Units/ts_driver_isim_beh.exe" -prj "J:/EE 220 retake/Lab 10 LC3 Functional Units/ts_driver_beh.prj" "work.ts_driver" "work.glbl" 

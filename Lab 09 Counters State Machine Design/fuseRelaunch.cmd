@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "J:/EE 220 retake/Lab 09 Counters State Machine Design/counter_block_isim_beh.exe" -prj "J:/EE 220 retake/Lab 09 Counters State Machine Design/counter_block_beh.prj" "work.counter_block" "work.glbl" 

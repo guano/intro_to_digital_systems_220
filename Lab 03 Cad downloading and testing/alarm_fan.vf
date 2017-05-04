@@ -1,0 +1,50 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : alarm_fan.vf
+// /___/   /\     Timestamp : 05/05/2016 12:36:11
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog "J:/EE 220 retake/Lab 03 Cad downloading and testing/alarm_fan.vf" -w "J:/EE 220 retake/Lab 03 Cad downloading and testing/alarm_fan.sch"
+//Design Name: alarm_fan
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module alarm_fan(cord, 
+                 high_temp, 
+                 low_bat, 
+                 alarm, 
+                 fan);
+
+    input cord;
+    input high_temp;
+    input low_bat;
+   output alarm;
+   output fan;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire alarm_DUMMY;
+   
+   assign alarm = alarm_DUMMY;
+   AND2  XLXI_1 (.I0(XLXN_1), 
+                .I1(low_bat), 
+                .O(alarm_DUMMY));
+   AND2  XLXI_2 (.I0(high_temp), 
+                .I1(XLXN_2), 
+                .O(fan));
+   INV  XLXI_3 (.I(cord), 
+               .O(XLXN_1));
+   INV  XLXI_4 (.I(alarm_DUMMY), 
+               .O(XLXN_2));
+endmodule

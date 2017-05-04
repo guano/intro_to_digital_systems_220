@@ -1,0 +1,4 @@
+verilog work "cef.vf"
+verilog work "abdg.vf"
+verilog work "seven_seg2.vf"
+verilog work "test_bench.vf"

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "J:/EE 220 retake/Lab 03 Cad downloading and testing/alarm_fan.xst" -ofn "J:/EE 220 retake/Lab 03 Cad downloading and testing/alarm_fan.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alarm_fan.ucf -p xc3s500e-fg320-4 "alarm_fan.ngc" alarm_fan.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o alarm_fan_map.ncd alarm_fan.ngd alarm_fan.pcf 
+par -w -intstyle ise -ol high -t 1 alarm_fan_map.ncd alarm_fan.ncd alarm_fan.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml alarm_fan.twx alarm_fan.ncd -o alarm_fan.twr alarm_fan.pcf -ucf alarm_fan.ucf 
+bitgen -intstyle ise -f alarm_fan.ut alarm_fan.ncd 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=J:\EE 220 retake\Lab 07 Register File\register_file_testbench.ncd
+OUTFILE=J:\EE 220 retake\Lab 07 Register File\register_file_testbench.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=J:\EE 220 retake\Lab 07 Register File
+LICENSE=ISE
+USER_INFO=174672765_1777505556_210596263_102

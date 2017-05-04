@@ -1,0 +1,28 @@
+Command line:
+   NZP_isim_beh.exe
+     -simmode  gui
+     -simrunnum  4
+     -socket  59364
+
+Thu Jun 02 13:43:50 2016
+
+
+ Elaboration Time: 0.171601 sec
+
+ Current Memory Usage: 1317.8 Meg
+
+ Total Signals          : 32
+ Total Nets             : 37
+ Total Signal Drivers   : 10
+ Total Blocks           : 5
+ Total Primitive Blocks : 4
+ Total Processes        : 14
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 120
+
+ Total Simulation Time: 0.358803 sec
+
+ Current Memory Usage: 688.624 Meg
+
+Thu Jun 02 14:38:09 2016
+

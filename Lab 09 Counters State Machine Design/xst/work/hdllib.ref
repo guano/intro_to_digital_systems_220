@@ -1,0 +1,17 @@
+MO mux_2 NULL "../Lab 08 4x7 Segment Controller/mux.v" vlg03/mux__2.bin 1464282935
+MO mux_4 NULL "../Lab 08 4x7 Segment Controller/mux.v" vlg05/mux__4.bin 1464282935
+MO seven_seg2 NULL seven_seg2.vf vlg5D/seven__seg2.bin 1464282935
+MO prog_timer NULL "../Lab 08 4x7 Segment Controller/prog_timer.v" vlg38/prog__timer.bin 1464282935
+MO cef_MUSER_seven_seg2 NULL seven_seg2.vf vlg49/cef___m_u_s_e_r__seven__seg2.bin 1464282935
+MO decoder_2_4 NULL "../Lab 08 4x7 Segment Controller/2_4_decoder.v" vlg36/decoder__2__4.bin 1464282935
+MO abdg_MUSER_seven_seg2 NULL seven_seg2.vf vlg09/abdg___m_u_s_e_r__seven__seg2.bin 1464282935
+MO abdg NULL abdg.vf vlg4A/abdg.bin 1464282935
+MO mux_16_4 NULL "../Lab 08 4x7 Segment Controller/mux.v" vlg4F/mux__16__4.bin 1464282935
+MO latch NULL latch.v vlg34/latch.bin 1464282935
+MO counter_block NULL counter_block.v vlg6A/counter__block.bin 1464282935
+MO count6 NULL counters.v vlg57/count6.bin 1464282935
+MO mod4 NULL "../Lab 08 4x7 Segment Controller/mod4.v" vlg38/mod4.bin 1464282935
+MO count10 NULL counters.v vlg4A/count10.bin 1464282935
+MO seg4x7 NULL seg4x7.v vlg52/seg4x7.bin 1464282935
+MO cef NULL cef.vf vlg0A/cef.bin 1464282935
+MO stopwatch NULL stopwatch.v vlg1D/stopwatch.bin 1464282935

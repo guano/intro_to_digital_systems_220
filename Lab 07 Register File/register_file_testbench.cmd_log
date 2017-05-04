@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "J:/EE 220 retake/Lab 07 Register File/register_file_testbench.xst" -ofn "J:/EE 220 retake/Lab 07 Register File/register_file_testbench.syr" 
+xst -intstyle ise -ifn "J:/EE 220 retake/Lab 07 Register File/register_file_testbench.xst" -ofn "J:/EE 220 retake/Lab 07 Register File/register_file_testbench.syr" 
+xst -intstyle ise -ifn "J:/EE 220 retake/Lab 07 Register File/register_file_testbench.xst" -ofn "J:/EE 220 retake/Lab 07 Register File/register_file_testbench.syr" 
+xst -intstyle ise -ifn "J:/EE 220 retake/Lab 07 Register File/register_file_testbench.xst" -ofn "J:/EE 220 retake/Lab 07 Register File/register_file_testbench.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testbench.ucf -p xc3s500e-fg320-4 "register_file_testbench.ngc" register_file_testbench.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o register_file_testbench_map.ncd register_file_testbench.ngd register_file_testbench.pcf 
+par -w -intstyle ise -ol high -t 1 register_file_testbench_map.ncd register_file_testbench.ncd register_file_testbench.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml register_file_testbench.twx register_file_testbench.ncd -o register_file_testbench.twr register_file_testbench.pcf -ucf testbench.ucf 
+bitgen -intstyle ise -f register_file_testbench.ut register_file_testbench.ncd 
+xst -intstyle ise -ifn "J:/EE 220 retake/Lab 07 Register File/register_file_testbench.xst" -ofn "J:/EE 220 retake/Lab 07 Register File/register_file_testbench.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testbench.ucf -p xc3s500e-fg320-4 "register_file_testbench.ngc" register_file_testbench.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o register_file_testbench_map.ncd register_file_testbench.ngd register_file_testbench.pcf 
+par -w -intstyle ise -ol high -t 1 register_file_testbench_map.ncd register_file_testbench.ncd register_file_testbench.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml register_file_testbench.twx register_file_testbench.ncd -o register_file_testbench.twr register_file_testbench.pcf -ucf testbench.ucf 
+bitgen -intstyle ise -f register_file_testbench.ut register_file_testbench.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc register_file.ucf -p xc3s500e-fg320-4 "register_file_testbench.ngc" register_file_testbench.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o register_file_testbench_map.ncd register_file_testbench.ngd register_file_testbench.pcf 
+par -w -intstyle ise -ol high -t 1 register_file_testbench_map.ncd register_file_testbench.ncd register_file_testbench.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml register_file_testbench.twx register_file_testbench.ncd -o register_file_testbench.twr register_file_testbench.pcf -ucf register_file.ucf 
+bitgen -intstyle ise -f register_file_testbench.ut register_file_testbench.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc register_file.ucf -p xc3s500e-fg320-4 "register_file_testbench.ngc" register_file_testbench.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o register_file_testbench_map.ncd register_file_testbench.ngd register_file_testbench.pcf 
+par -w -intstyle ise -ol high -t 1 register_file_testbench_map.ncd register_file_testbench.ncd register_file_testbench.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml register_file_testbench.twx register_file_testbench.ncd -o register_file_testbench.twr register_file_testbench.pcf -ucf register_file.ucf 
+bitgen -intstyle ise -f register_file_testbench.ut register_file_testbench.ncd 

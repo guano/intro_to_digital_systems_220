@@ -1,0 +1,62 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : abdg.vf
+// /___/   /\     Timestamp : 05/25/2016 16:21:07
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog "J:/EE 220 retake/Lab 09 Counters State Machine Design/abdg.vf" -w "J:/EE 220 retake/Lab 08 4x7 Segment Controller/abdg.sch"
+//Design Name: abdg
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module abdg(n0, 
+            n1, 
+            n2, 
+            n3, 
+            a, 
+            b, 
+            d, 
+            g);
+
+    input n0;
+    input n1;
+    input n2;
+    input n3;
+   output a;
+   output b;
+   output d;
+   output g;
+   
+   
+   ROM16X1 #( .INIT(16'h2812) ) XLXI_1 (.A0(n0), 
+                   .A1(n1), 
+                   .A2(n2), 
+                   .A3(n3), 
+                   .O(a));
+   ROM16X1 #( .INIT(16'hD860) ) XLXI_2 (.A0(n0), 
+                   .A1(n1), 
+                   .A2(n2), 
+                   .A3(n3), 
+                   .O(b));
+   ROM16X1 #( .INIT(16'h8492) ) XLXI_3 (.A0(n0), 
+                   .A1(n1), 
+                   .A2(n2), 
+                   .A3(n3), 
+                   .O(d));
+   ROM16X1 #( .INIT(16'h1083) ) XLXI_4 (.A0(n0), 
+                   .A1(n1), 
+                   .A2(n2), 
+                   .A3(n3), 
+                   .O(g));
+endmodule

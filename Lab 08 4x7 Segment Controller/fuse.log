@@ -1,0 +1,43 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o J:/EE 220 retake/Lab 08 4x7 Segment Controller/seg4x7_isim_beh.exe -prj J:/EE 220 retake/Lab 08 4x7 Segment Controller/seg4x7_beh.prj work.seg4x7 work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "J:/EE 220 retake/Lab 08 4x7 Segment Controller/cef.vf" into library work
+Analyzing Verilog file "J:/EE 220 retake/Lab 08 4x7 Segment Controller/abdg.vf" into library work
+Analyzing Verilog file "J:/EE 220 retake/Lab 08 4x7 Segment Controller/seven_seg2.vf" into library work
+Analyzing Verilog file "J:/EE 220 retake/Lab 08 4x7 Segment Controller/prog_timer.v" into library work
+Analyzing Verilog file "J:/EE 220 retake/Lab 08 4x7 Segment Controller/mux.v" into library work
+Analyzing Verilog file "J:/EE 220 retake/Lab 08 4x7 Segment Controller/mod4.v" into library work
+Analyzing Verilog file "J:/EE 220 retake/Lab 08 4x7 Segment Controller/2_4_decoder.v" into library work
+Analyzing Verilog file "J:/EE 220 retake/Lab 08 4x7 Segment Controller/seg4x7.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "J:/EE 220 retake/Lab 08 4x7 Segment Controller/seg4x7.v" Line 18: Size mismatch in connection of port <clken>. Formal port size is 1-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module prog_timer
+Compiling module decoder_2_4
+Compiling module mod4
+Compiling module mux_2
+Compiling module mux_4
+Compiling module mux_16_4
+Compiling module AND3B1
+Compiling module OR3
+Compiling module AND2B1
+Compiling module AND3B2
+Compiling module AND4B1
+Compiling module OR4
+Compiling module AND4B3
+Compiling module AND3
+Compiling module cef_MUSER_seven_seg2
+Compiling module ROM16X1(INIT=16'b010100000010010...
+Compiling module abdg_MUSER_seven_seg2
+Compiling module seven_seg2
+Compiling module seg4x7
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 23 Verilog Units
+Built simulation executable J:/EE 220 retake/Lab 08 4x7 Segment Controller/seg4x7_isim_beh.exe
+Fuse Memory Usage: 28528 KB
+Fuse CPU Usage: 951 ms

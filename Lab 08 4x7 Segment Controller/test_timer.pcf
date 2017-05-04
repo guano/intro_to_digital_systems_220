@@ -1,0 +1,11 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue May 24 14:35:06 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "out_tp" LOCATE = SITE "B4" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "out_zero" LOCATE = SITE "A4" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "J:/EE 220 retake/Lab 08 4x7 Segment Controller/seg4x7_isim_beh.exe" -prj "J:/EE 220 retake/Lab 08 4x7 Segment Controller/seg4x7_beh.prj" "work.seg4x7" "work.glbl" 

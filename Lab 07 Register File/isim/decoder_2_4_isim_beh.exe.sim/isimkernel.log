@@ -1,0 +1,10 @@
+Command line:
+   decoder_2_4_isim_beh.exe
+     -simmode  gui
+     -simrunnum  2
+     -socket  58044
+
+Thu May 19 13:09:10 2016
+
+
+ Elaboration Time: 0.078001 sec

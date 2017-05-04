@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "J:/EE 220 retake/Lab 04 Seven segment decoder/test_bench.xst" -ofn "J:/EE 220 retake/Lab 04 Seven segment decoder/test_bench.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testbench.ucf -p xc3s500e-fg320-4 "test_bench.ngc" test_bench.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testbench.ucf -p xc3s500e-fg320-4 "test_bench.ngc" test_bench.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test_bench_map.ncd test_bench.ngd test_bench.pcf 
+par -w -intstyle ise -ol high -t 1 test_bench_map.ncd test_bench.ncd test_bench.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test_bench.twx test_bench.ncd -o test_bench.twr test_bench.pcf -ucf testbench.ucf 
+bitgen -intstyle ise -f test_bench.ut test_bench.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc testbench.ucf -p xc3s500e-fg320-4 "test_bench.ngc" test_bench.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test_bench_map.ncd test_bench.ngd test_bench.pcf 
+par -w -intstyle ise -ol high -t 1 test_bench_map.ncd test_bench.ncd test_bench.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test_bench.twx test_bench.ncd -o test_bench.twr test_bench.pcf -ucf testbench.ucf 
+bitgen -intstyle ise -f test_bench.ut test_bench.ncd 

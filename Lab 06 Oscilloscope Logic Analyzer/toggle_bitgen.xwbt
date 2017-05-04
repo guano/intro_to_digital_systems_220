@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=J:\EE 220 retake\Lab 06 Oscilloscope Logic Analyzer\toggle.ncd
+OUTFILE=J:\EE 220 retake\Lab 06 Oscilloscope Logic Analyzer\toggle.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=J:\EE 220 retake\Lab 06 Oscilloscope Logic Analyzer
+LICENSE=ISE
+USER_INFO=174672765_1777505556_210596263_102

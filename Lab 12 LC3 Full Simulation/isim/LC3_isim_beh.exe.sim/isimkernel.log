@@ -1,0 +1,28 @@
+Command line:
+   LC3_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52545
+
+Wed Jun 08 15:38:24 2016
+
+
+ Elaboration Time: 0.218401 sec
+
+ Current Memory Usage: 1474.15 Meg
+
+ Total Signals          : 218
+ Total Nets             : 425
+ Total Signal Drivers   : 64
+ Total Blocks           : 31
+ Total Primitive Blocks : 24
+ Total Processes        : 84
+ Total Traceable Variables  : 71
+ Total Scalar Nets and Variables : 5165
+
+ Total Simulation Time: 0.280801 sec
+
+ Current Memory Usage: 687.686 Meg
+
+Wed Jun 08 15:44:05 2016
+

@@ -1,0 +1,104 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : cef.vf
+// /___/   /\     Timestamp : 05/10/2016 13:10:16
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog "J:/EE 220 retake/Lab 04 Seven segment decoder/cef.vf" -w "J:/EE 220 retake/Lab 04 Seven segment decoder/cef.sch"
+//Design Name: cef
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module cef(n0, 
+           n1, 
+           n2, 
+           n3, 
+           c, 
+           e, 
+           f);
+
+    input n0;
+    input n1;
+    input n2;
+    input n3;
+   output c;
+   output e;
+   output f;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_5;
+   wire XLXN_6;
+   wire XLXN_7;
+   wire XLXN_8;
+   wire XLXN_9;
+   wire XLXN_10;
+   
+   AND3B1  XLXI_2 (.I0(n0), 
+                  .I1(n2), 
+                  .I2(n3), 
+                  .O(XLXN_1));
+   OR3  XLXI_8 (.I0(XLXN_3), 
+               .I1(XLXN_1), 
+               .I2(XLXN_2), 
+               .O(c));
+   AND2B1  XLXI_9 (.I0(n3), 
+                  .I1(n0), 
+                  .O(XLXN_6));
+   AND3B2  XLXI_10 (.I0(n1), 
+                   .I1(n3), 
+                   .I2(n2), 
+                   .O(XLXN_4));
+   AND3B2  XLXI_12 (.I0(n2), 
+                   .I1(n3), 
+                   .I2(n0), 
+                   .O(XLXN_8));
+   AND3B2  XLXI_13 (.I0(n2), 
+                   .I1(n3), 
+                   .I2(n1), 
+                   .O(XLXN_5));
+   AND3B1  XLXI_14 (.I0(n3), 
+                   .I1(n0), 
+                   .I2(n1), 
+                   .O(XLXN_9));
+   AND4B1  XLXI_15 (.I0(n1), 
+                   .I1(n0), 
+                   .I2(n2), 
+                   .I3(n3), 
+                   .O(XLXN_10));
+   OR3  XLXI_16 (.I0(XLXN_7), 
+                .I1(XLXN_4), 
+                .I2(XLXN_6), 
+                .O(e));
+   OR4  XLXI_17 (.I0(XLXN_10), 
+                .I1(XLXN_9), 
+                .I2(XLXN_5), 
+                .I3(XLXN_8), 
+                .O(f));
+   AND4B3  XLXI_18 (.I0(n0), 
+                   .I1(n3), 
+                   .I2(n2), 
+                   .I3(n1), 
+                   .O(XLXN_3));
+   AND3  XLXI_20 (.I0(n1), 
+                 .I1(n2), 
+                 .I2(n3), 
+                 .O(XLXN_2));
+   AND3B2  XLXI_22 (.I0(n1), 
+                   .I1(n2), 
+                   .I2(n0), 
+                   .O(XLXN_7));
+endmodule

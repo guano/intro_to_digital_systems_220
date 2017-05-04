@@ -1,0 +1,28 @@
+Command line:
+   alarm_fan_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50824
+
+Tue May 03 12:21:54 2016
+
+
+ Elaboration Time: 0.124801 sec
+
+ Current Memory Usage: 1316.84 Meg
+
+ Total Signals          : 31
+ Total Nets             : 21
+ Total Signal Drivers   : 10
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 11
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 101
+
+ Total Simulation Time: 0.187201 sec
+
+ Current Memory Usage: 687.657 Meg
+
+Tue May 03 14:04:01 2016
+

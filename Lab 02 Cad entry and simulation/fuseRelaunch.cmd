@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "J:/EE 220 retake/Lab 02 Cad entry and simulation/problem_2_2_isim_beh.exe" -prj "J:/EE 220 retake/Lab 02 Cad entry and simulation/problem_2_2_beh.prj" "work.problem_2_2" "work.glbl" 

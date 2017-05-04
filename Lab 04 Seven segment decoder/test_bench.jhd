@@ -1,0 +1,3 @@
+MODULE test_bench
+	SUBMODULE seven_seg2
+		INSTANCE XLXI_45

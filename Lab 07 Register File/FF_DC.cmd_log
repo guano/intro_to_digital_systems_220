@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "J:/EE 220 retake/Lab 07 Register File/FF_DC.xst" -ofn "J:/EE 220 retake/Lab 07 Register File/FF_DC.syr" 

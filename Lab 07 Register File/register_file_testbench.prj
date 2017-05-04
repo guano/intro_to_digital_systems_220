@@ -1,0 +1,5 @@
+verilog work "mux.v"
+verilog work "d_ff.v"
+verilog work "2_4_decoder.v"
+verilog work "register.v"
+verilog work "testbench.v"

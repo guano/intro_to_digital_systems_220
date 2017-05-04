@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "J:/EE 220 retake/Lab 04 Seven segment decoder/seven_seg_isim_beh.exe" -prj "J:/EE 220 retake/Lab 04 Seven segment decoder/seven_seg_beh.prj" "work.seven_seg" "work.glbl" 

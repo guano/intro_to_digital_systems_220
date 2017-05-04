@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym cef {J:/EE 220 retake/Lab 04 Seven segment decoder/cef.sch} {J:/EE 220 retake/Lab 04 Seven segment decoder/cef.sym} 

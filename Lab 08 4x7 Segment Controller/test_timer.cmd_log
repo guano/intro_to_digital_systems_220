@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "J:/EE 220 retake/Lab 08 4x7 Segment Controller/test_timer.xst" -ofn "J:/EE 220 retake/Lab 08 4x7 Segment Controller/test_timer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc test_timer.ucf -p xc3s500e-fg320-4 "test_timer.ngc" test_timer.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o test_timer_map.ncd test_timer.ngd test_timer.pcf 
+par -w -intstyle ise -ol high -t 1 test_timer_map.ncd test_timer.ncd test_timer.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml test_timer.twx test_timer.ncd -o test_timer.twr test_timer.pcf -ucf test_timer.ucf 
+bitgen -intstyle ise -f test_timer.ut test_timer.ncd 

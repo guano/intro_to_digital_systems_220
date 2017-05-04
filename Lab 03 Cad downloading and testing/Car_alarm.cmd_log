@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "J:/EE 220 retake/Lab 03 Cad downloading and testing/Car_alarm.xst" -ofn "J:/EE 220 retake/Lab 03 Cad downloading and testing/Car_alarm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc car_alarm.ucf -p xc3s500e-fg320-4 "Car_alarm.ngc" Car_alarm.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Car_alarm_map.ncd Car_alarm.ngd Car_alarm.pcf 
+par -w -intstyle ise -ol high -t 1 Car_alarm_map.ncd Car_alarm.ncd Car_alarm.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Car_alarm.twx Car_alarm.ncd -o Car_alarm.twr Car_alarm.pcf -ucf car_alarm.ucf 
+bitgen -intstyle ise -f Car_alarm.ut Car_alarm.ncd 
+xst -intstyle ise -ifn "J:/EE 220 retake/Lab 03 Cad downloading and testing/Car_alarm.xst" -ofn "J:/EE 220 retake/Lab 03 Cad downloading and testing/Car_alarm.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc car_alarm.ucf -p xc3s500e-fg320-4 "Car_alarm.ngc" Car_alarm.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Car_alarm_map.ncd Car_alarm.ngd Car_alarm.pcf 
+par -w -intstyle ise -ol high -t 1 Car_alarm_map.ncd Car_alarm.ncd Car_alarm.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Car_alarm.twx Car_alarm.ncd -o Car_alarm.twr Car_alarm.pcf -ucf car_alarm.ucf 
+bitgen -intstyle ise -f Car_alarm.ut Car_alarm.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc car_alarm.ucf -p xc3s500e-fg320-4 "Car_alarm.ngc" Car_alarm.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Car_alarm_map.ncd Car_alarm.ngd Car_alarm.pcf 
+par -w -intstyle ise -ol high -t 1 Car_alarm_map.ncd Car_alarm.ncd Car_alarm.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Car_alarm.twx Car_alarm.ncd -o Car_alarm.twr Car_alarm.pcf -ucf car_alarm.ucf 
+bitgen -intstyle ise -f Car_alarm.ut Car_alarm.ncd 

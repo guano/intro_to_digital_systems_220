@@ -1,0 +1,5 @@
+MO mux_2 NULL alu.v vlg03/mux__2.bin 1462914573
+MO mux_4 NULL alu.v vlg05/mux__4.bin 1462914573
+MO full_adder NULL full_adder.v vlg5A/full__adder.bin 1462914573
+MO alu_4 NULL alu_4.v vlg09/alu__4.bin 1462914573
+MO alu NULL alu.v vlg0A/alu.bin 1462914573

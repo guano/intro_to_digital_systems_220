@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;seg4x7.v&quot; line 18 </arg>Connection to input port &apos;<arg fmt="%s" index="2">clken</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">M1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">bit2</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">M0</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">bit3</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">seg&lt;6&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ROM16X1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">seg&lt;3&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ROM16X1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">seg&lt;1&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ROM16X1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="old" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">seg&lt;0&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">ROM16X1</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+</messages>
+

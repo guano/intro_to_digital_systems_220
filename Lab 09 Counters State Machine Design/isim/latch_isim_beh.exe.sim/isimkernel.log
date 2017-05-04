@@ -1,0 +1,28 @@
+Command line:
+   latch_isim_beh.exe
+     -simmode  gui
+     -simrunnum  2
+     -socket  51786
+
+Wed May 25 15:22:40 2016
+
+
+ Elaboration Time: 0.140401 sec
+
+ Current Memory Usage: 1471.22 Meg
+
+ Total Signals          : 15
+ Total Nets             : 16
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 97
+
+ Total Simulation Time: 0.327603 sec
+
+ Current Memory Usage: 684.757 Meg
+
+Wed May 25 15:45:27 2016
+

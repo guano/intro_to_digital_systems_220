@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "J:/EE 220 retake/Lab 05 Arithmetic Logic Unit/alu_4.xst" -ofn "J:/EE 220 retake/Lab 05 Arithmetic Logic Unit/alu_4.syr" 
+xst -intstyle ise -ifn "J:/EE 220 retake/Lab 05 Arithmetic Logic Unit/alu_4.xst" -ofn "J:/EE 220 retake/Lab 05 Arithmetic Logic Unit/alu_4.syr" 
+xst -intstyle ise -ifn "J:/EE 220 retake/Lab 05 Arithmetic Logic Unit/alu_4.xst" -ofn "J:/EE 220 retake/Lab 05 Arithmetic Logic Unit/alu_4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alu_4.ucf -p xc3s500e-fg320-4 "alu_4.ngc" alu_4.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o alu_4_map.ncd alu_4.ngd alu_4.pcf 
+par -w -intstyle ise -ol high -t 1 alu_4_map.ncd alu_4.ncd alu_4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml alu_4.twx alu_4.ncd -o alu_4.twr alu_4.pcf -ucf alu_4.ucf 
+bitgen -intstyle ise -f alu_4.ut alu_4.ncd 
